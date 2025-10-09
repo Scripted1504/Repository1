@@ -1,18 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Blank Page</title>
-    <style>
-      body {
-        background-color: #007F00;
-        font-family: sans-serif;
-        text-align: center;
-        padding-top: 100px;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <title>My Web Playground</title>
   </head>
   <body>
-    <h1>Hello, world!!</h1>
-    <p>This is a blank test page.</p>
+    <!-- Header section with main title -->
+    <header>
+      <h1>Welcome to My Web Playground</h1>
+      <p>This is a simple webpage using core HTML features.</p>
+    </header>
+
+    <!-- Navigation links -->
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- About section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm learning HTML and building cool stuff. I love coding, coffee, and cats.</p>
+    </section>
+
+    <!-- Favorites section with list and image -->
+    <section id="favorites">
+      <h2>My Favorite Things</h2>
+      <ul>
+        <li>Coding 💻</li>
+        <li>Coffee ☕</li>
+        <li>Cats 🐱</li>
+      </ul>
+      <img src="https://via.placeholder.com/200" alt="A placeholder image of a cat">
+    </section>
+
+    <!-- Table example -->
+    <section>
+      <h2>My Weekly Schedule</h2>
+      <table border="1">
+        <tr>
+          <th>Day</th>
+          <th>Activity</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Learn HTML</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Practice CSS</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Form example -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <p>Made with ❤️ in HTML. Contact: <a href="mailto:me@example.com">me@example.com</a></p>
+    </footer>
   </body>
 </html>
